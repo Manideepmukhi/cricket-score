@@ -13,7 +13,7 @@ import com.crick.app.crickscore.service.MatchService;
 
 @RestController
 @RequestMapping("/match")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://score-frontend-production.up.railway.app/")
 public class MatchController {
 	
 	private MatchService matchSevice;
